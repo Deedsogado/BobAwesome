@@ -1,0 +1,31 @@
+﻿<Window x:Name="frmItem1" x:Class="Deliverable6.frmItem"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Deliverable6"
+        mc:Ignorable="d"
+        Title="An Item!" Height="300" Width="300">
+    <Grid>
+        <StackPanel x:Name="stkItemDetails" HorizontalAlignment="Center" VerticalAlignment="Center">
+          
+            <TextBlock x:Name="tbItemQuestion" Text="Would you like to equip this item to the hero?" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="tbItemName" Text="Item name" HorizontalAlignment="Center"/>
+            <TextBlock x:Name="tbItemStrength" Text="Strength" HorizontalAlignment="Center" />
+            <TextBlock x:Name="tbItemPenalty" Text="Penalty" HorizontalAlignment="Center" />
+            <Grid >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="3*" />
+                    <ColumnDefinition Width="1*" />
+
+                </Grid.ColumnDefinitions>
+                <Button x:Name="btnItemYes" Content="Yes" Grid.Column="1" Click="btnItemYes_Click" />
+                <Button x:Name="btnItemNo" Content="No" Grid.Column="3" Click="btnItemNo_Click" />
+            </Grid>
+            
+        </StackPanel>
+    </Grid>
+</Window>

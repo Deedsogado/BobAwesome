@@ -1,0 +1,62 @@
+﻿<Window x:Name="frmMain" x:Class="Deliverable6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Deliverable6"
+        mc:Ignorable="d"
+        Title="Bob Awesome: The Game" Height="350" Width="525" KeyUp="frmMain_KeyUp">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <Menu x:Name="menuFile" Grid.Row="0" Grid.RowSpan="1" >
+            <MenuItem x:Name="miSaveGame" Header="Save Game" Click="miSaveGame_Click" />
+            <MenuItem x:Name="miLoadGame" Header="Load Game" Click="miLoadGame_Click" />
+        </Menu>
+        <Grid x:Name="grdMap" Margin="0,0,-0.333,-0.333" Grid.Row="1" Grid.RowSpan="1">
+            <!-- rows and columns will be added in code-behind. -->
+        </Grid>
+        <Grid x:Name="grdButtons" Margin="0,0,-0.333,-0.333" Grid.Row="2" Grid.RowSpan="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="3*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid x:Name="grdHeroHUD" Grid.Column="0" Grid.ColumnSpan="2" >
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*" />
+                    <ColumnDefinition Width="2*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+                <Label x:Name="lblHeroName" Content="Name: " Grid.Column="0" Grid.Row="0" Padding="0" HorizontalAlignment="Right" />
+                <Label x:Name="lblHeroHP" Content="HP: " Grid.Column="0" Grid.Row="1" Padding="0" HorizontalAlignment="Right" />
+                <Label x:Name="lblHeroWeapon" Content="Weapon: " Grid.Column="0" Grid.Row="2" Padding="0" HorizontalAlignment="Right" />
+                <Label x:Name="lblHeroKey" Content="Key: " Grid.Column="0" Grid.Row="3" Padding="0" HorizontalAlignment="Right" />
+                <TextBlock x:Name="tbHeroName" Text="full name goes here" Grid.Column="1" Grid.Row="0" />
+                <TextBlock x:Name="tbHeroHP" Text="remaining / total " Grid.Column="1" Grid.Row="1" />
+                <TextBlock x:Name="tbHeroWeapon" Text=" weapon goes here " Grid.Column="1" Grid.Row="2" />
+                <TextBlock x:Name="tbHeroKey" Text=" key goes here " Grid.Column="1" Grid.Row="3" />
+            </Grid>
+            <Button x:Name="btnLeft" Grid.Column="2" Grid.ColumnSpan="1" Content="Left" Click="btnLeft_Click" />
+            <Button x:Name="btnUp" Grid.Column="3" Grid.ColumnSpan="1" Content="Up" Click="btnUp_Click" />
+            <Button x:Name="btnDown" Grid.Column="4" Grid.ColumnSpan="1" Content="Down" Click="btnDown_Click" />
+            <Button x:Name="btnRight" Grid.Column="5" Grid.ColumnSpan="1" Content="Right" Click="btnRight_Click" />
+            <Button x:Name="btnRefreshMap" Grid.Column="8" Grid.ColumnSpan="1" Content="Refresh Map" Click="btnRefreshMap_Click" />
+            
+
+        </Grid>
+    </Grid>
+</Window>

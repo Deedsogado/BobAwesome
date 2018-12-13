@@ -1,0 +1,11 @@
+C:\Users\higle\OneDrive\Documents\ISU\CS 1182\Deliverable6\CoreObjects\bin\Debug\CoreObjects.dll
+C:\Users\higle\OneDrive\Documents\ISU\CS 1182\Deliverable6\CoreObjects\bin\Debug\CoreObjects.pdb
+C:\Users\higle\OneDrive\Documents\ISU\CS 1182\Deliverable6\CoreObjects\obj\Debug\CoreObjects.csprojResolveAssemblyReference.cache
+C:\Users\higle\OneDrive\Documents\ISU\CS 1182\Deliverable6\CoreObjects\obj\Debug\CoreObjects.dll
+C:\Users\higle\OneDrive\Documents\ISU\CS 1182\Deliverable6\CoreObjects\obj\Debug\CoreObjects.pdb
+F:\_Docs\ISU\CS 1182\Deliverable6\Deliverable6\CoreObjects\bin\Debug\CoreObjects.dll
+F:\_Docs\ISU\CS 1182\Deliverable6\Deliverable6\CoreObjects\bin\Debug\CoreObjects.pdb
+F:\_Docs\ISU\CS 1182\Deliverable6\Deliverable6\CoreObjects\obj\Debug\CoreObjects.csprojAssemblyReference.cache
+F:\_Docs\ISU\CS 1182\Deliverable6\Deliverable6\CoreObjects\obj\Debug\CoreObjects.csproj.CoreCompileInputs.cache
+F:\_Docs\ISU\CS 1182\Deliverable6\Deliverable6\CoreObjects\obj\Debug\CoreObjects.dll
+F:\_Docs\ISU\CS 1182\Deliverable6\Deliverable6\CoreObjects\obj\Debug\CoreObjects.pdb

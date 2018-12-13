@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CoreObjects.Actor">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CoreObjects.Actor.Direction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Actor.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAgAAACIAAABAICABgAAKAQAwIEAAAKBoAAAAAAAAAA=</HashCode>
+      <FileName>Actor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreObjects.Door">
+    <Position X="8.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Door.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreObjects.DoorKey">
+    <Position X="3.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>DoorKey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreObjects.Hero">
+    <Position X="0.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEAAAgAAAACAQAABAAAAAAACAIoAAAAAAAAEAAE=</HashCode>
+      <FileName>Hero.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_EquippedKey" />
+      <Field Name="_EquippedWeapon" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CoreObjects.Item">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CoreObjects.Item.Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Item.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AQAAEAAAAIAAAAAAAAAAIASAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CoreObjects.Map">
+    <Position X="3.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAABBAERABAEAAAAABAAAIAAAAAAQAAAEAAAAA=</HashCode>
+      <FileName>Map.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_Hero" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="_GameBoard" />
+      <Field Name="_Items" />
+      <Field Name="_Monsters" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="CoreObjects.MapCell">
+    <Position X="8.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAgAAACAAEAAAAAQAAAAEAAAAAAAAAgAAAAIAAAA=</HashCode>
+      <FileName>MapCell.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="item" />
+      <Field Name="monster" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CoreObjects.Monster">
+    <Position X="5.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAEAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Monster.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CoreObjects.Potion">
+    <Position X="8.25" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="CoreObjects.Potion.colors" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Potion.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAgAAAAAA=</HashCode>
+      <FileName>Potion.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CoreObjects.Weapon">
+    <Position X="3.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAgAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Weapon.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="CoreObjects.IRepeatable&lt;T&gt;">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IRepeatable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
